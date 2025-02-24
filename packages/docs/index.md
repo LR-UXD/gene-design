@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: Eric-UI 组件库
-  text: 高仿 ElementPlus
+  name: Gene-Design 组件库
+  text: 面向设计师和开发者
   tagline: 基于 Vue3 + TS 开发的组件库
   actions:
     - theme: brand
