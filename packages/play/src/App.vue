@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <g-button type='success' size='large'>test</g-button>
+  <g-button type='success' size='large' useThrottle>test</g-button>
 </template>
 
 <style scoped>

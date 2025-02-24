@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm --filter @gene-design/play dev",
-    "storybook": "pnpm --filter @gene-design/play storybook",
+    "dev": "pnpm run build && pnpm --filter @gene-design/play dev",
+    "story": " pnpm run build && pnpm --filter @gene-design/play storybook",
     "docs:dev": "pnpm --filter @gene-design/docs dev",
     "docs:build": "pnpm --filter @gene-design/docs build",
     "test": "pnpm --filter @gene-design/components test",
@@ -20,6 +20,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/vue-fontawesome": "^3.0.6",
     "@popperjs/core": "^2.11.8",
+    "@vitepress-preview/component": "workspace:*",
     "@types/lodash-es": "^4.17.12",
     "@types/node": "~20.11.20",
     "@vitejs/plugin-vue": "^5.0.4",

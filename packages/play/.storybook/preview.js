@@ -1,3 +1,5 @@
+import "gene-design/dist/index.css"
+
 /** @type { import('@storybook/vue3').Preview } */
 const preview = {
   parameters: {
