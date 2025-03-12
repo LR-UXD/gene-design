@@ -6,7 +6,7 @@
 
     --g-button-font-weight: var(--g-font-weight-primary);
     --g-button-border-color: var(--g-plum-600);
-    --g-button-bg-color: var(--g-neutral-grey-50);
+    --g-button-bg-color: transparent;
     --g-button-text-color: var(--g-text-back-white);
 
 
@@ -15,11 +15,12 @@
     --g-button-disabled-border-color: var(--g-cold-grey-50);
 
     --g-button-hover-text-color: var(--g-text-back-white);
-    --g-button-hover-bg-color: var(--g-neutral-grey-50);
+    --g-button-hover-bg-color: transparent;
     --g-button-hover-border-color: var(--g-plum-700);
 
     --g-button-focus-text-color: var(--g-text-back-white);
     --g-button-focus-border-color: var(--g-neutral-grey-50);
+    --g-button-focus-bg-color: var(--g-neutral-grey-50);
     --g-button-focus-inside-color: var(--g-plum-600);
     --g-button-focus-outside-color: var(--g-plum-600);
     --g-button-focus-shadow: 0px 0px 0px 3px var(--g-button-focus-inside-color),
@@ -29,7 +30,7 @@
 
     --g-button-active-text-color: var(--g-text-back-white);
     --g-button-active-border-color: var(--g-plum-800);
-    --g-button-active-bg-color: var(--g-neutral-grey-50);
+    --g-button-active-bg-color: transparent;
     /* --g-button-outline-color: var(--g-plum-600); */
     /* --g-button-active-color: var(--g-plum-800); */
 
@@ -67,8 +68,7 @@
         margin-left: 12px;
     }
 
-    &:hover,
-    &:focus {
+    &:hover {
         color: var(--g-button-hover-text-color);
         border-color: var(--g-button-hover-border-color);
         background-color: var(--g-button-hover-bg-color);
@@ -76,8 +76,12 @@
     }
 
     &:focus {
+        color: var(--g-button-focus-text-color);
         border-color: var(--g-button-focus-border-color);
+        background-color: var(--g-button-focus-bg-color);
         box-shadow: var(--g-button-focus-shadow);
+        outline: none;
+
     }
 
     &:active {
@@ -140,6 +144,9 @@
 
 --g-button-focus-text-color: var(--g-$(
         val)-focus-text
+);
+--g-button-focus-bg-color: var(--g-$(
+        val)-focus-inside
 );
 --g-button-focus-border-color: var(--g-neutral-grey-50);
 --g-button-focus-inside-color: var(--g-$(

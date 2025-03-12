@@ -156,7 +156,7 @@
     --g-secondary-disabled-border: transparent;
 
 
-    --g-text-normal: var(--g-plum-600);
+    --g-text-normal: transparent;
     --g-text-hover: var(--g-plum-100);
     --g-text-focus-inside: var(--g-plum-50);
     --g-text-focus-outside: var(--g-plum-600);
