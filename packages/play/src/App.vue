@@ -2,7 +2,9 @@
 </script>
 
 <template>
-  <g-button type='success' size='large' useThrottle>test</g-button>
+  <g-button size="mini" round disabled>test</g-button>
+  <g-button size="mini" icon="search" circle />
+
 </template>
 
 <style scoped>

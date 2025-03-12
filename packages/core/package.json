@@ -1,6 +1,6 @@
 {
   "name": "gene-design",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Components library by vue3 + Ts",
   "type": "module",
   "main": "./dist/umd/index.umd.cjs",

@@ -1,8 +1,9 @@
 import { type Component, type ComputedRef, type Ref } from "vue";
 
-export type ButtonType = 'primary' | 'success' | 'warning' | 'danger' | 'info';
+export type ButtonType = 'primary' | 'secondary' | 'default' | 'text';
 export type NativeType = "button" | "reset" | "submit";
-export type ButtonSize = "large" | "default" | "small";
+export type ButtonSize = "large" | "default" | "small" | "mini";
+
 
 export interface ButtonProps {
     tag?: string | Component;
@@ -13,7 +14,6 @@ export interface ButtonProps {
     loading?: boolean;
     icon?: string;
     circle?: boolean;
-    plain?: boolean;
     round?: boolean;
     loadingIcon?: string;
     autofocus?: boolean;

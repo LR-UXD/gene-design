@@ -43,11 +43,10 @@ const handleBtnClickThrottle = throttle(handleBtnClick, props.throttleDuration, 
         :type="tag === 'button' ? nativeType : void 0" :disabled="disabled || loading ? true : void 0" :class="{
             [`g-button--${type}`]: type,
             [`g-button--${size}`]: size,
-            'is-plain': plain,
-            'is-round': round,
             'is-circle': circle,
             'is-disabled': disabled,
             'is-loading': loading,
+            'is-round': round,
         }" @click="(e: MouseEvent) => useThrottle ? handleBtnClickThrottle(e) : handleBtnClick(e)">
         <template v-if="loading">
             <slot name="loading">
