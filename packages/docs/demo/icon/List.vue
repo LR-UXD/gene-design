@@ -13,7 +13,7 @@ const icons = [
     "history",
     "home",
     "import",
-    "launch",
+    // "launch",
     "list",
     "message-banned",
     "message",
@@ -38,7 +38,7 @@ const icons = [
     "translate",
     "upload",
     "voice",
-    "export",
+    // "export",
 ];
 </script>
 
