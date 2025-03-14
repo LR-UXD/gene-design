@@ -3,8 +3,8 @@ title: Button
 description: Button 组件文档
 
 next:
-  link: /components/collapse
-  text: Collapse 折叠面板
+  link: /components/icon
+  text: icon
 
 prev:
   link: /get-started
@@ -33,7 +33,7 @@ demo-preview=../demo/button/Disabled.vue
 
 ## 图标按钮
 
-使用 `icon`属性来定义按钮的图标。
+使用 `icon`属性来定义按钮的图标(可以和type兼容)。
 
 ::: preview
 demo-preview=../demo/button/Icon.vue

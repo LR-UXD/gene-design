@@ -30,6 +30,7 @@ export default defineConfig({
                 collapsed: false,
                 items: [
                     { text: "Button 按钮", link: "components/button" },
+                    { text: "Icon", link: "components/icon" },
                 ],
             },
         ],

@@ -15,8 +15,8 @@
 
     <p>
         <g-button icon="search" circle />
-        <g-button type="primary" icon="edit" circle />
-        <g-button type="secondary" icon="check" circle />
+        <g-button type="primary" icon="download" circle />
+        <g-button type="secondary" icon="at" circle />
         <g-button type="text" icon="message" circle />
     </p>
 </template>

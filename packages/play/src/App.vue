@@ -6,7 +6,17 @@
   <g-button size="mini" icon="download" circle type="primary" />
   <g-icon icon="download" color="blue" size="100"></g-icon>
   <g-icon icon="star" color="blue" size="100"></g-icon>
-  <g-icon icon="star" color="red" size="200"></g-icon>
+  <g-icon icon="star" color="red"></g-icon>
+
+  <p>
+    <g-button type="primary" icon="download" />
+    <g-button type="primary" icon="at" />
+    <g-button type="primary" icon="search" />
+    <g-button type="primary" icon="search">Search</g-button>
+    <g-button type="primary">
+      Upload<g-icon icon="download" style="margin-left: 8px" size="1em" />
+    </g-button>
+  </p>
 </template>
 
 <style scoped>

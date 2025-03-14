@@ -3,17 +3,15 @@ title: Icon
 description: Icon 组件文档
 
 next:
-  link: **
-  text: **
+  link: /components/table
+  text: table 组件
 
 prev:
-  link: /button
+  link: /components/button
   text: Button 组件文档
 ---
 
 # icon
-
-常用的icon。
 
 ## 基础用法
 
@@ -22,6 +20,10 @@ prev:
 ::: preview
 demo-preview=../demo/icon/Basic.vue
 :::
+
+
+## 常用的icon
+<List />
 
 
 ## Button API
