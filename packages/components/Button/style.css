@@ -8,11 +8,14 @@
     --g-button-border-color: var(--g-plum-600);
     --g-button-bg-color: transparent;
     --g-button-text-color: var(--g-text-back-white);
+    --g-button-icon-color: var(--g-text-back-white);
 
 
     --g-button-disabled-text-color: var(--g-neutral-grey-400);
     --g-button-disabled-bg-color: transparent;
     --g-button-disabled-border-color: var(--g-cold-grey-50);
+    --g-button-disabled-icon-color: var(--g-neutral-grey-400);
+
 
     --g-button-hover-text-color: var(--g-text-back-white);
     --g-button-hover-bg-color: transparent;
@@ -33,8 +36,6 @@
     --g-button-active-bg-color: transparent;
     /* --g-button-outline-color: var(--g-plum-600); */
     /* --g-button-active-color: var(--g-plum-800); */
-
-
 
 
 
@@ -116,11 +117,16 @@
         background-image: none;
         background-color: var(--g-button-disabled-bg-color);
         border-color: var(--g-button-disabled-border-color);
+
+        [class*='g-icon'] {
+            color: var(--g-button-disabled-icon-color);
+        }
     }
 
     [class*='g-icon'] {
         width: 1em;
         height: 1em;
+        color: var(--g-button-icon-color);
     }
 }
 
@@ -172,11 +178,16 @@
 --g-button-disabled-border-color: var(--g-$(
         val)-disabled-border
 );
+--g-button-icon-color: var(--g-$(
+        val)-active-text
+);
 
 &.is-circle {
     border-radius: 30%;
     padding: 8px;
 }
+
+
 
 }
 }

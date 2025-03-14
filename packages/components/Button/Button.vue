@@ -51,7 +51,7 @@ const handleBtnClickThrottle = throttle(handleBtnClick, props.throttleDuration, 
         }" @click="(e: MouseEvent) => useThrottle ? handleBtnClickThrottle(e) : handleBtnClick(e)">
         <template v-if="loading">
             <slot name="loading">
-                <g-icon class="loading-icon" :icon="loadingIcon ?? 'spinner'" :style='iconStyle' size="1x" spin />
+                <g-icon class="loading-icon" :icon="loadingIcon ?? 'spinner'" :style='iconStyle' size="1x" />
             </slot>
         </template>
         <g-icon v-if="icon && !loading" :icon="icon" :style="iconStyle" size="1x" />

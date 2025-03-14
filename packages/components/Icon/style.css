@@ -9,8 +9,8 @@
     font-size: inherit;
 }
 
-@each $val in primary, info, success, warning, danger {
-    .er-icon--$(val) {
+@each $val in primary, secondary, default, text {
+    .g-icon--$(val) {
         --g-icon-color: var(--g-color-$(
                 val)
         );
