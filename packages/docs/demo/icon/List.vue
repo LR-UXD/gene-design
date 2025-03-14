@@ -7,7 +7,6 @@ const icons = [
     "code",
     "customer-service",
     "download",
-    "export",
     "eye-invisible",
     "eye",
     "heart",
@@ -39,6 +38,7 @@ const icons = [
     "translate",
     "upload",
     "voice",
+    "export",
 ];
 </script>
 
