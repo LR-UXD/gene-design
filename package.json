@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "pnpm run build && pnpm --filter @gene-design/play dev",
     "story": " pnpm run build && pnpm --filter @gene-design/play storybook",
-    "docs:dev": "pnpm --filter @gene-design/docs dev",
+    "docs:dev": "pnpm run build && pnpm --filter @gene-design/docs dev",
     "docs:build": "pnpm --filter @gene-design/docs build",
     "test": "pnpm --filter @gene-design/components test",
     "build": "pnpm --filter gene-design build"
