@@ -29,8 +29,9 @@ export default defineConfig({
                 text: "基础组件",
                 collapsed: false,
                 items: [
-                    { text: "Button 按钮", link: "components/button" },
-                    { text: "Icon", link: "components/icon" },
+                    { text: "按钮 Button", link: "components/button" },
+                    { text: "图标 Icon", link: "components/icon" },
+                    { text: "面包屑 Breadcrumb", link: "components/breadcrumb" },
                 ],
             },
         ],

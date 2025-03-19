@@ -3,8 +3,8 @@ title: Icon
 description: Icon 组件文档
 
 next:
-  link: /components/table
-  text: table 组件
+  link: /components/breadcrumb
+  text: 面包屑
 
 prev:
   link: /components/button
@@ -26,7 +26,7 @@ demo-preview=../demo/icon/Basic.vue
 <List />
 
 
-## Button API
+## Icon API
 
 ### Props
 

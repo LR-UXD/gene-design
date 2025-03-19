@@ -13,7 +13,6 @@ export default {
     enhanceApp({ app }: { app: App }) {
         app.component("demo-preview", ElementPlusContainer);
         app.use(genedesign);
-
         app.component("List", List);
     },
 };

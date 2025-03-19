@@ -1,0 +1,21 @@
+.g-breadcrumb-ellipsis {
+    padding: 0 4px;
+    color: var(--g-neutral-grey-600);
+}
+
+.g-breadcrumb-item__inner {
+    padding: 5px 4px;
+}
+
+.g-breadcrumb-item__inner.is-grey {
+    color: var(--g-neutral-grey-600);
+}
+
+:deep(.g-breadcrumb-item__inner) a {
+    padding: 5px 4px;
+    color: var(--g-neutral-grey-600);
+}
+
+.g-breadcrumb-item__inner.is-black {
+    color: var(--g-neutral-grey-900);
+}

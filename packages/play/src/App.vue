@@ -1,4 +1,6 @@
 <script setup lang="ts">
+
+
 </script>
 
 <template>
@@ -16,6 +18,16 @@
     <g-button type="primary">
       Upload<g-icon icon="download" style="margin-left: 8px" size="1em" />
     </g-button>
+  </p>
+
+  <p>
+    <g-breadcrumb separator=">">
+      <g-breadcrumb-item><a href="/">Home1</a></g-breadcrumb-item>
+      <g-breadcrumb-item to='home'>Home2</g-breadcrumb-item>
+      <g-breadcrumb-item to='about'>About</g-breadcrumb-item>
+      <!-- <g-breadcrumb-item>Detail</g-breadcrumb-item>
+      <g-breadcrumb-item>More</g-breadcrumb-item> -->
+    </g-breadcrumb>
   </p>
 </template>
 

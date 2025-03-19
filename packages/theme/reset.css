@@ -4,23 +4,32 @@ body {
     font-weight: 400;
     font-size: var(--g-font-size-base);
     line-height: calc(var(--g-font-size-base) * 1.2);
-    color: var(--g-text-color-primary);
+    color: var(--g-neutral-grey-900);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
 }
 
+.vp-doc a,
 a {
-    color: var(--g-color-primary);
+    color: var(--g-plum-600);
     text-decoration: none;
+    padding: 1px 4px;
+    background-color: transparent;
+    border-radius: var(--g-border-radius-base);
 
-    &:hover,
-    &:focus {
-        color: var(--g-color-primary-light-3);
+
+    &:hover {
+        color: var(--g-plum-600);
+        background-color: var(--g-cold-grey-100);
+
     }
 
+    &:focus,
     &:active {
-        color: var(--g-color-primary-dark-2);
+        color: var(--g-plum-600);
+        background-color: var(--g-cold-grey-200);
+
     }
 }
 
@@ -80,11 +89,4 @@ sub {
 
 small {
     font-size: calc(var(--g-font-size-base) - 2px);
-}
-
-hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 1px solid var(--g-border-color-lighter);
 }
