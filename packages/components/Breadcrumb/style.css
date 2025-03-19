@@ -14,14 +14,19 @@
 :deep(.g-breadcrumb-item__inner) a {
     padding: 5px 4px;
     color: var(--g-neutral-grey-600);
+
 }
 
 .g-breadcrumb-item__inner.g-is-black {
     color: var(--g-neutral-grey-900);
 }
 
-.vp-doc a:hover,
-a:hover,
-a:focus {
+.vp-doc :deep(.g-breadcrumb-item__inner) a {
     color: var(--g-neutral-grey-600);
+
+    &:hover,
+    &:focus {
+        color: var(--g-neutral-grey-600);
+
+    }
 }
