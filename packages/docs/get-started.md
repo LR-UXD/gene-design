@@ -45,7 +45,7 @@ Gene-Design 提供了基于 ES Module 的开箱即用的 Tree Shaking 功能。
   <g-button>我是 Button</g-button>
 </template>
 <script>
-  import { gButton } from ' g-element'
+  import { gButton } from ' g-gene'
   export default {
     components: { gButton },
   }

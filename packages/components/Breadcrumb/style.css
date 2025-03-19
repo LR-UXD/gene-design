@@ -7,7 +7,7 @@
     padding: 5px 4px;
 }
 
-.g-breadcrumb-item__inner.is-grey {
+.g-breadcrumb-item__inner.g-is-grey {
     color: var(--g-neutral-grey-600);
 }
 
@@ -16,6 +16,12 @@
     color: var(--g-neutral-grey-600);
 }
 
-.g-breadcrumb-item__inner.is-black {
+.g-breadcrumb-item__inner.g-is-black {
     color: var(--g-neutral-grey-900);
+}
+
+.vp-doc a:hover,
+a:hover,
+a:focus {
+    color: var(--g-neutral-grey-600);
 }

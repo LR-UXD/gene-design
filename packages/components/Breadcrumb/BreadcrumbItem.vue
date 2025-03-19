@@ -1,7 +1,7 @@
 <template>
   <span class="g-breadcrumb-item">
     <component :is="to ? 'a' : 'span'" :href="to ? to : undefined"
-      :class="['g-breadcrumb-item__inner', { 'is-link': !!to, 'is-grey': !isLast, 'is-black': isLast }]">
+      :class="['g-breadcrumb-item__inner', { 'g-is-link': !!to, 'g-is-grey': !isLast, 'g-is-black': isLast }]">
       <slot />
     </component>
     <!-- 只在不是最后一项时显示分隔符 -->
