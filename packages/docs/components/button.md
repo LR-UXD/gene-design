@@ -64,8 +64,8 @@ demo-preview=../demo/button/Throttle.vue
 
 | Name              | Description                       | Type                                                             | Default |
 | ----------------- | --------------------------------- | ---------------------------------------------------------------- | ------- |
-| size              | 尺寸                              | `enum` - `'large'\| 'default'\| 'small'\|'mini'`                         | —       |
-| type              | 类型                              | `enum` - `'primary'\| 'secondary'\| 'default'\| 'text'` | -   |
+| size              | 尺寸                              | `'large'\| 'default'\| 'small'\|'mini'`                         | —       |
+| type              | 类型                              | `'primary'\| 'secondary'\| 'default'\| 'text'`                   | -   |
 | round             | 是否为圆角按钮                    | `boolean`                                                        | false   |
 | circle            | 是否为圆形按钮                    | `boolean`                                                        | false   |
 | disabled          | 按钮是否为禁用状态                | `boolean`                                                        | false   |

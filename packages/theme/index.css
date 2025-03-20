@@ -204,7 +204,9 @@
 
 
 
-
+    /*animation*/
+    --g-transition-duration: 0.4s;
+    --g-transition-duration-fast: 0.2s;
 
 
 

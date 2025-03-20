@@ -13,16 +13,6 @@ import dts from "vite-plugin-dts";
 const COMP_NAMES = ['Button', "Icon", "Input", "Upload"] as const;
 
 
-
-
-// import terser from "@rollup/plugin-terser";
-
-// const TRY_MOVE_STYLES_DELAY = 750 as const;
-
-// const isProd = process.env.NODE_ENV === "production";
-// const isDev = process.env.NODE_ENV === "development";
-// const isTest = process.env.NODE_ENV === "test";
-
 function getDirectoriesSync(basePath: string) {
     const entries = readdirSync(basePath, { withFileTypes: true });
 
@@ -32,18 +22,10 @@ function getDirectoriesSync(basePath: string) {
     );
 }
 
-// function moveStyles() {
-//   readdir("./dist/es/theme", (err) => {
-//     if (err) return delay(moveStyles, TRY_MOVE_STYLES_DELAY);
-//     defer(() => shell.mv("./dist/es/theme", "./dist"));
-//   });
-// }
+
 
 export default defineConfig({
     plugins: [vue(),
-    // visualizer({
-    //   filename: "dist/stats.es.html",
-    // }),
     dts(
         {
             tsconfigPath: "../../tsconfig.build.json",

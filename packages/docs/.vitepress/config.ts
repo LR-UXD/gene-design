@@ -32,6 +32,7 @@ export default defineConfig({
                     { text: "按钮 Button", link: "components/button" },
                     { text: "图标 Icon", link: "components/icon" },
                     { text: "面包屑 Breadcrumb", link: "components/breadcrumb" },
+                    { text: "文字气泡 Tooltip", link: "components/tooltip" },
                 ],
             },
         ],

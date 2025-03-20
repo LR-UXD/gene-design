@@ -1,10 +1,10 @@
 ---
-title: Icon
-description: Icon 组件文档
+title: Breadcrumb
+description: Breadcrumb 组件文档
 
 next:
-  link: /components/table
-  text: table 组件
+  link: /components/tooltip
+  text: tooltip 组件
 
 prev:
   link: /components/icon
